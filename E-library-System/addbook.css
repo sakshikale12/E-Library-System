@@ -1,0 +1,122 @@
+*
+{
+   margin: 0;
+   padding: 0;
+}
+body
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: #2ec194
+}
+.container
+{
+	position: relative;
+	display: flex;
+	flex-direction: column;	
+}
+.container .box
+{
+	position: relative;
+	width: 300px;
+	height: 100px;
+	/*margin: 40px 0;*/
+	background:#fff;
+	font-family: consolas;
+	font-size: 2.5em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+	
+.container .box.shadow1
+{
+	box-shadow: -30px 30px 20px rgba(0,0,0,0.3)
+}
+.container .box.shadow2
+{
+	box-shadow: -30px 30px 20px rgba(0,0,0,0.3)
+}
+.container .box.shadow3
+{
+	box-shadow: -30px 30px 20px rgba(0,0,0,0.3)
+}
+.container .box.shadow4
+{
+	box-shadow: -30px 30px 20px rgba(0,0,0,0.3)
+}
+.container .box.shadow5
+{
+	box-shadow: -30px 30px 20px rgba(0,0,0,0.3)
+}
+.container .box.shadow6
+{
+	box-shadow: -30px 30px 20px rgba(0,0,0,0.3)
+}
+.container .box.shadow7
+{
+	box-shadow: -30px 30px 20px rgba(0,0,0,0.3)
+}
+.container .box.shadow8
+{
+	box-shadow: -30px 30px 20px rgba(0,0,0,0.3)
+}
+.container .box.shadow9
+{
+	box-shadow: -30px 30px 20px rgba(0,0,0,0.3)
+}
+.container .box.shadow10
+{
+	box-shadow: -30px 30px 20px rgba(0,0,0,0.3)
+}
+.container .box.shadow11
+{
+	box-shadow: -30px 30px 20px rgba(0,0,0,0.3)
+}
+.container .box.shadow12
+{
+	box-shadow: -30px 30px 20px rgba(0,0,0,0.3)
+}
+.container .box.shadow13
+{
+    position: absolute;
+    top:450px;
+    right:500px;
+	box-shadow: -30px 30px 20px rgba(0,0,0,0.3)
+}
+.topnav{
+    position:absolute;
+    top:0;
+    right:0;
+    left:0;
+    border-radius: 20px;
+    font-size:15px;
+	padding:10px;
+}
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  ul.topnav li {float: left;}
+  
+  ul.topnav li a {
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  ul.topnav li a:hover:not(.active) {background-color: #111;}
+  
+  /*ul.topnav li a.active {background-color: #969998;}*/
+  
+  ul.topnav li.right {float: right;}
+  
+  
